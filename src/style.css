@@ -1,0 +1,60 @@
+/** Auteur : Guilhem SERENE **/
+
+html {/* Par defaut */
+	font-family: Calibri;
+	    margin : 5px;
+}
+
+h1 {
+    text-align : center;
+}
+
+#ajouter_article {
+	float : right;	
+	display : block;
+	padding : 5px 5px 5px 5px; 
+
+}
+
+.menu {
+    float: left;
+    display : inline;
+    padding: 5px 10px;
+	
+    color: #777;
+    font-weight: bold;
+}
+
+.article {
+    border : 1px dotted;
+    text-align : center;
+    display : block;   
+	margin-bottom : 10px;
+}
+
+
+.titre_article {
+	font-family: Arial;
+    display : inline;
+    margin : 5px;
+
+}
+
+
+
+.bouton_supprimer {
+    float : right;
+}
+
+.bouton_modifier {
+    float : right;
+}
+
+.contenu_article {
+	text-align : left;
+}
+
+.date_user_article {
+	font-size: 8;
+	text-align : left;
+}
